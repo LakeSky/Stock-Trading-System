@@ -1,0 +1,373 @@
+/*
+Designed by Shengze Wei in Chongqing Coded in Fuling
+Copyright 2014 Shengze Wei. All rights reserved.
+*/
+@charset "utf-8";
+
+.container {
+  margin: 80px auto;
+  width: 640px;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.register {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 430px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.register h1 {
+  margin: -20px -20px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+.mainlist {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 800px;
+  height:auto;
+  
+}
+
+.mainlist h1 {
+  margin: -20px -20px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+.login h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+.login p {
+	margin-bottom:10px;
+}
+.login p:first-child {
+  margin-top: 0;
+}
+.login input[type=text], .login input[type=password] {
+  width: 278px;
+}
+
+.login p.button {
+  text-align:center;
+}
+
+input {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus, input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+html, body {
+	height: 100%;
+	overflow: hidden
+}
+
+body {
+	overflow-y: auto;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+* a:hover {
+	color: #ff5400;
+}
+
+.succeed {
+	margin-top: 100px;
+}
+
+.succeed p {
+	font-size: 24px;
+	color: #00F;
+	font-weight: bold;
+}
+#sp {
+	font-size: 16px;
+	font-weight: bold;
+}
+#b {
+	width: 77px;
+	height: 24px;
+	color: #fff;
+	line-height: 24px;
+	background: url('../img/button.gif') no-repeat;
+	border: none;
+	margin: auto
+}
+
+#umain{
+	width:440px;
+	margin:80px auto 120px;
+	position:relative;
+	text-align:center;
+}
+
+#umain form{
+	width:440px;
+	height:250px;
+	padding-top: 50px;
+}
+
+#mainlist{
+	width:800px;
+	margin:80px auto 120px;
+	position:relative;
+	text-align:center;
+}
+
+#mainlist form{
+	width:800px;
+	padding-top: 50px;
+}
+
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background:url('../img/bg.jpg') repeat center top #826e79;
+}
+
+
+body{
+	font:14px/1.3 'Segoe UI', 'Arial', sans-serif;
+}
+
+a, a:visited {
+	outline:none;
+	color:#1c4f64;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	The Header
+-----------------------------*/
+
+
+h1{
+	font:bold 36px Cambria, "Hoefler Text",serif;
+	margin-bottom:50px;
+	color:#71564b;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+}
+
+/*----------------------------
+	The Submit Button
+-----------------------------*/
+
+
+input[type=submit],input[type=button]{
+	
+	border: 1px solid #004C9B;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #D3EBFF;
+    cursor: pointer;
+	margin:2px;
+    font: bold 24px Cambria,"Hoefler Text",serif;
+    padding: 10px;
+    text-shadow: 0 -1px 0 #444444;
+    width: 300px;
+	background-color:#0496DA;
+	
+	background-image: linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -o-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -moz-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -webkit-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -ms-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+}
+
+input[type=submit]:hover,input[type=button]:hover{
+	
+	background-color:#0383d3;
+	
+	background-image: linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+}
+
+input[type=submit]:active,input[type=button]:active{
+	
+	background-color:#026fcb;
+	
+	background-image: linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
+	height: 25px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+footer div {
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFF;
+}
+form table {
+	margin-top:40px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+form table .tdl {
+	text-align: left;
+}
+
+form table .tdr {
+	text-align:right;
+}
+form table .tdc {
+	text-align:center;
+}
+#mainlist .mainlist #con1 {
+	width:250px;
+	display: inline;
+	float: left;
+}
+#mainlist .mainlist #con2 {
+	width:550px;
+	display: inline;
+	float: right;
+}
+#mainlist .mainlist #con {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}#mainlist .mainlist #con tr .tdc .sm {
+	height: 30px;
+	width: 90px;
+	font-size: 18px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#mainlist .mainlist #con tr .tdc .maintext {
+	height: 20px;
+	width: 300px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
